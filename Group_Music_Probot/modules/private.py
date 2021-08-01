@@ -22,17 +22,17 @@ Try the /help Command below to know my abilities.
             [
                 [
                     InlineKeyboardButton(
-                        "👥 𝙰𝚍𝚍 Group Music Probot 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙 👥", url="https://t.me/Group_Music_ProBot?startgroup=true")
+                        "🦋 𝙰𝚍𝚍 Group Music Probot 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙 🦋", url="https://t.me/kidprobot?startgroup=true")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Music Lovers 💬", url="https://t.me/HindiKDrama"
+                        "🍄 Mush World 🍄", url="https://t.me/magiclmush"
                     ),
                     InlineKeyboardButton(
-                        "🙋 𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙲𝚑𝚊𝚝 🙋", url="https://t.me/Black_Knights_Union_Support"
+                        "🌻 𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙲𝚑𝚊𝚝 🌻", url="https://t.me/tzkid"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "💁 Assistant 💁", url="https://t.me/Group_Music_Pro"
+                        "👽 Assistant 👽", url="https://t.me/kidmusic_bot"
                     )],
             ]
         ),
@@ -49,7 +49,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Support Chat 💬", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "🌻 Support Chat 🌻", url=f"https://t.me/{SUPPORT_GROUP}"
                     )
                 ]
             ]
@@ -91,7 +91,7 @@ def map(pos):
             [InlineKeyboardButton("➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
             [InlineKeyboardButton(text = '📲 Updates', url=f"https://t.me/{UPDATES_CHANNEL}"),
              InlineKeyboardButton(text = '💬 Support', url=f"https://t.me/{SUPPORT_GROUP}")],
-            [InlineKeyboardButton(text = '🛠 Source Code 🛠', url=f"https://{SOURCE_CODE}")],
+            [InlineKeyboardButton(text = '🛠 Source Code 🛠', url=f"https://t.me/{SUPPORT_GROUP")],
             [InlineKeyboardButton(text = '◀️', callback_data = f"help+{pos-1}")]
         ]
     else:
